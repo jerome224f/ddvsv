@@ -1,0 +1,16 @@
+73:  Activity, 
+74:  ActivityType, 
+274:  const [activities, setActivities] = useState<Activity[]>(() => {
+760:  const handleSaveActivity = (e: React.FormEvent<HTMLFormElement>, context: 'contact' | 'lead') => {
+764:    const newActivity: Activity = {
+768:      type: formData.get('type') as ActivityType,
+773:    setActivities([newActivity, ...activities]);
+777:  const handleRemoveActivity = (id: string) => {
+1232:    // Activity types
+1301:            <h3 className="font-bold text-slate-800 mb-6">Activity Breakdown</h3>
+1446:              <span>Add Activity</span>
+2760:                              onSubmit={(e) => handleSaveActivity(e, activeTab === 'contacts' ? 'contact' : 'lead')} 
+2765:                                  <label className="block text-[10px] font-bold text-slate-400 uppercase mb-1">Activity Type</label>
+2799:                                Log Activity
+2803:                            {/* Activity Feed */}
+2854:                                          onClick={() => handleRemoveActivity(activity.id)}

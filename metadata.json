@@ -1,0 +1,6 @@
+{
+  "name": "Vyes CRM",
+  "description": "A modern, high-performance Indian-focused customer relationship management system with lead tracking, task management, and INR currency support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
